@@ -32,6 +32,11 @@ Estão disponíveis as seguintes modalidades de pagamento:
 
 Além que é possível utilizar o sandbox do Stelo
 
+Configuração e Uso
+----------------
+
+Para configuração e uso do plugin por favor veja este [vídeo](https://youtu.be/808JngVklYU)
+
 Compatibilidade
 ----------------
 
