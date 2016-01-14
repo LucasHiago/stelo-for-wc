@@ -1,0 +1,5 @@
+{
+    "require": {
+        "gpupo/stelo-sdk": "^1.2"
+    }
+}

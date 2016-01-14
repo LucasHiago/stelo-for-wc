@@ -1,0 +1,92 @@
+<pre>Array
+(
+    [client_id] => 
+    [client_secret] => 
+    [version] => api
+    [login_version] => login
+)
+</pre><pre>Array
+(
+    [client_id] => 
+    [client_secret] => 
+    [version] => api
+    [login_version] => login
+)
+</pre><pre>Array
+(
+    [client_id] => 
+    [client_secret] => 
+    [version] => api
+    [login_version] => login
+)
+</pre><pre>Array
+(
+    [client_id] => 
+    [client_secret] => 
+    [version] => api
+    [login_version] => login
+)
+</pre><pre>Array
+(
+    [client_id] => 
+    [client_secret] => 
+    [version] => api
+    [login_version] => login
+)
+</pre><pre>Array
+(
+    [client_id] => 
+    [client_secret] => 
+    [version] => api
+    [login_version] => login
+)
+</pre><pre>Array
+(
+    [client_id] => 
+    [client_secret] => 
+    [version] => api
+    [login_version] => login
+)
+</pre><pre>Array
+(
+    [client_id] => 
+    [client_secret] => 
+    [version] => api
+    [login_version] => login
+)
+</pre><pre>Array
+(
+    [client_id] => 
+    [client_secret] => 
+    [version] => api
+    [login_version] => login
+)
+</pre><pre>Array
+(
+    [client_id] => 
+    [client_secret] => 
+    [version] => api
+    [login_version] => login
+)
+</pre><pre>Array
+(
+    [client_id] => 
+    [client_secret] => 
+    [version] => api
+    [login_version] => login
+)
+</pre><pre>Array
+(
+    [client_id] => 
+    [client_secret] => 
+    [version] => api
+    [login_version] => login
+)
+</pre><pre>Array
+(
+    [client_id] => dc4466359d7c9a7f00c3af342509aaca
+    [client_secret] => ea272251dec4c2adb8a295b03de5ab2d
+    [version] => sandbox
+    [login_version] => login.hml
+)
+</pre>

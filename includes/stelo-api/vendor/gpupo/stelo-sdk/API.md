@@ -1,0 +1,267 @@
+#API Docs
+
+---
+## Gpupo\SteloSdk\Customer\ShippingAddress
+##### ``public`` getSchema()
+---
+## Gpupo\SteloSdk\Customer\BillingAddress
+##### ``public`` getSchema()
+---
+## Gpupo\SteloSdk\Order\Cart\Cart
+##### ``public`` factoryElement()
+    
+
+Argument   | Type          | Description
+------------| :-------------| :-------------
+        $data |  |
+---
+## Gpupo\SteloSdk\Order\Order
+##### ``public`` getSchema()
+    
+
+##### ``public`` toArray()
+    
+
+##### ``public`` getId()
+    
+
+##### ``public`` setId()
+    
+
+##### ``public`` getTransactionType()
+    
+
+##### ``public`` setTransactionType()
+    
+
+##### ``public`` getShippingBehavior()
+    
+
+##### ``public`` setShippingBehavior()
+    
+
+##### ``public`` getCountry()
+    
+
+##### ``public`` setCountry()
+    
+
+##### ``public`` getCart()
+    
+
+##### ``public`` setCart()
+    
+
+##### ``public`` getPayment()
+    
+
+##### ``public`` setPayment()
+    
+
+##### ``public`` getCustomer()
+    
+
+##### ``public`` setCustomer()
+    
+
+##### ``public`` getChangeShipment()
+    
+
+##### ``public`` setChangeShipment()
+---
+## Gpupo\SteloSdk\Customer\Phone\Phone
+##### ``public`` factoryElement()
+    
+
+Argument   | Type          | Description
+------------| :-------------| :-------------
+        $data |  |
+---
+## Gpupo\SteloSdk\Customer\Customer
+Entidade Cliente
+
+##### ``public`` getSchema()
+    
+
+##### ``public`` setCustomerIdentity()
+    Define CustomerIdentity
+
+##### ``public`` getCustomerIdentity()
+    Acesso a CustomerIdentity
+
+##### ``public`` setCustomerName()
+    Define CustomerName
+
+##### ``public`` getCustomerName()
+    Acesso a CustomerName
+
+##### ``public`` setCustomerEmail()
+    Define CustomerEmail
+
+##### ``public`` getCustomerEmail()
+    Acesso a CustomerEmail
+
+##### ``public`` setBirthDay()
+    Define BirthDay
+
+##### ``public`` getBirthDay()
+    Acesso a BirthDay
+
+##### ``public`` setGender()
+    Define Gender
+
+##### ``public`` getGender()
+    Acesso a Gender
+
+##### ``public`` setPhone()
+    Define Phone
+
+##### ``public`` getPhone()
+    Acesso a Phone
+
+##### ``public`` setBillingAddress()
+    Define BillingAddress
+
+##### ``public`` getBillingAddress()
+    Acesso a BillingAddress
+
+##### ``public`` setShippingAddress()
+    Define ShippingAddress
+
+##### ``public`` getShippingAddress()
+    Acesso a ShippingAddress
+---
+## Gpupo\SteloSdk\Transaction\Transaction
+##### ``public`` getSchema()
+    
+
+##### ``public`` getId()
+    
+
+##### ``public`` setId()
+    
+
+##### ``public`` getStatusCode()
+    
+
+##### ``public`` setStatusCode()
+    
+
+##### ``public`` getStatusMessage()
+    
+
+##### ``public`` setStatusMessage()
+    
+
+##### ``public`` getFreight()
+    
+
+##### ``public`` setFreight()
+    
+
+##### ``public`` getAmount()
+    
+
+##### ``public`` setAmount()
+---
+## Gpupo\SteloSdk\Customer\Phone\Item
+##### ``public`` getSchema()
+---
+## Gpupo\SteloSdk\Order\Customer
+Entidade Cliente
+
+##### ``public`` getSchema()
+---
+## Gpupo\SteloSdk\Order\Payment
+##### ``public`` getSchema()
+---
+## Gpupo\SteloSdk\Order\Cart\Item
+##### ``public`` getSchema()
+---
+## Gpupo\SteloSdk\Transaction\Manager
+##### ``public`` createFromOrder()
+    Cria uma transação a partir de um objeto Order
+
+Argument   | Type          | Description
+------------| :-------------| :-------------
+        $order | \Gpupo\SteloSdk\Order\Order | 
+        
+    
+##### ``public`` deleteById()
+    
+
+Argument   | Type          | Description
+------------| :-------------| :-------------
+        $itemId |  | 
+        
+    
+##### ``public`` findById()
+    
+
+Argument   | Type          | Description
+------------| :-------------| :-------------
+        $itemId |  | 
+        
+    
+##### ``protected`` factoryFromStatusResponse()
+    
+
+Argument   | Type          | Description
+------------| :-------------| :-------------
+        $response | \Gpupo\Common\Entity\Collection | 
+        
+    
+##### ``protected`` factoryFromCreateResponse()
+    
+
+Argument   | Type          | Description
+------------| :-------------| :-------------
+        $response | \Gpupo\CommonSdk\Response |
+---
+## Gpupo\SteloSdk\Client\Client
+##### ``public`` getDefaultOptions()
+    
+
+##### ``protected`` renderAuthorization()
+---
+## Gpupo\SteloSdk\View\Lightbox
+##### ``public`` getSchema()
+    
+
+##### ``public`` __construct()
+    
+
+Argument   | Type          | Description
+------------| :-------------| :-------------
+        $checkoutUrl |  | 
+        
+    
+##### ``public`` __toString()
+    
+
+##### ``public`` getCheckoutUrl()
+    
+
+##### ``public`` setCheckoutUrl()
+---
+## Gpupo\SteloSdk\Factory
+##### ``public`` setClient()
+    
+
+Argument   | Type          | Description
+------------| :-------------| :-------------
+        $clientOptions | array | 
+        
+    
+##### ``public`` getNamespace()
+    
+
+##### ``protected`` getSchema()
+    
+
+Argument   | Type          | Description
+------------| :-------------| :-------------
+        $namespace |  |
+
+---
+ Documentation generated by [pipe2](http:www.g1mr.com/pipe2/)

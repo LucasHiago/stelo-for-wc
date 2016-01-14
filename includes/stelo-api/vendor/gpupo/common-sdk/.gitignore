@@ -1,0 +1,8 @@
+*.swp
+/vendor/
+/nbproject/
+/.idea/
+/build/
+_layout/*
+_site/*
+Resources/*

@@ -1,0 +1,5 @@
+*.swp
+/vendor/
+/nbproject/
+/.idea/
+build/*
